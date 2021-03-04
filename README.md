@@ -1,2 +1,2 @@
-# OOP-Project
-## Will be released at midterm
+# Final Project
+## MS1 is released
