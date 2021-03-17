@@ -1,5 +1,8 @@
  # Project: General Hospital Pre-Triage Application
-- [MS1 V1.1 due March 16th](#milestone-1)<br />Updated the [getcstr function signature](#getcstr)
+- [MS1 V1.1 due March 16th](#milestone-1)<br />  
+Updated the [getcstr function signature](#getcstr)<br />
+**Fix for: ms2Tester.cpp:** V1.1 Fixed compiler dependecy issues.
+> If you have used recommended compilers: Visual studio and g++ compiler on Matrix as stated in the project, you have no issues and have no concern.
 - [MS2 N/A]()
 - [MS3 N/A]()
 - [MS4 N/A]()
