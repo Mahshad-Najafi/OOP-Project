@@ -236,7 +236,7 @@ Receives an unknown size string from the istream object and allocates a dynamic 
 
 In the end, it will return the dynamically allocated memory. 
 
-> Challenge: Implement this without using the C++ **string** class. (Make sure to notify your professor of the implementation in your final project reflection)
+> Optional Challenge: Implement this without using the C++ **string** class. (Make sure to notify your professor of the implementation in your final project reflection)
 
 #### getcstr unit test
 
