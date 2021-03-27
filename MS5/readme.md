@@ -1749,26 +1749,31 @@ The fpTester program will be copied from the professor's directory to yours and 
 The execution samples will be provided by Monday, Dec 30th.
 
 ## MS5 Submission and the due date
-Milestone 5 is due on Saturday, Dec 5th, 23:59 for a full mark. 
+Milestone 5 is due on Sunday, Apr 11th, 23:59 for a full mark. 
 
 To see the detailed submission dates and corresponding marks issue the submit comment using ```-due``` option:
 ```shell
-~porfname.proflastname/submit 244/prj/fp -due
+~porfname.proflastname/submit 2??/prj/fp -due
 OR
-~porfname.proflastname/submit 244/prj/open -due
+~porfname.proflastname/submit 2??/prj/open -due
+
+replace ?? with your subject code (44 or 00)
 ```
 
 ### Milestone submission marks
-25% mark for milestones if they are submitted in the past 4 weeks and not all at once at the end. (no hard due date for ms1 to ms4; OK if submissions are done regularly in the past four weeks)
+25% mark for milestones if they are submitted in the past 5 weeks and not all at once at the end. (no hard due date for ms1 to ms4; OK if submissions are done regularly in the past four weeks)
 
 ### Submitting with non-exact output (10% penalty)
 If your submission does not match the output exactly and is different with number of spaces or newlines, you can submit your work using the following options:  
 ```shell
-~porfname.proflastname/submit 244/prj/fp -skip_spaces 
+~porfname.proflastname/submit 2??/prj/fp -skip_spaces 
 or
-~porfname.proflastname/submit 244/prj/fp -skip_blank_lines
+~porfname.proflastname/submit 2??/prj/fp -skip_blank_lines
 or both
-~porfname.proflastname/submit 244/prj/fp -skip_blank_lines -skip_spaces
+~porfname.proflastname/submit 2??/prj/fp -skip_blank_lines -skip_spaces
+
+replace ?? with your subject code (44 or 00)
+
 ```
 
 ### Open submission (Maximum 60% for incomplete work)
