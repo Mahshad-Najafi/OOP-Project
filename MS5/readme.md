@@ -1799,11 +1799,13 @@ Then, run the following command from your account (replace `profname.proflastnam
 
 #### Normal submission
 ```shell
-~profname.proflastname/submit 244/prj/fp
+~profname.proflastname/submit 2??/prj/fp
+replace ?? with your subject code (44 or 00)
 ```
 #### Open submission
 ```shell
-~profname.proflastname/submit 244/prj/open
+~profname.proflastname/submit 2??/prj/open
+replace ?? with your subject code (44 or 00)
 ```
 and follow the instructions.
 
