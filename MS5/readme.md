@@ -3,7 +3,7 @@
 - [MS2 V1.0 due March 22nd](#milestone-2)
 - [MS3 V1.0 due March 27th](#milestone-3)
 - [MS4 V1.0 due April 2nd](#milestone-4)
-- [MS5 V0.8 (Final Milestone)](#milestone-5) Preview Version<br />
+- [MS5 V0.8 (Final Milestone) due Apr 11th](#milestone-5) Preview Version<br />
   [submission details](#ms5-submission-and-the-due-date)<br/>
   [initialization sample](#pretriage-constructor)<br />
   [V1.0 open submission and execution samples](#ms5-submission-and-the-due-date)
