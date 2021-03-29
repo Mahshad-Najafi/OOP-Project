@@ -12,6 +12,7 @@
 #include "PreTriage.h"
 #include "utils.h"
 using namespace sdds;
+using namespace std;
 int main() {
    sdds::debug = true;
    ofstream("data.csv").close();

@@ -11,6 +11,10 @@
 #include <fstream>
 #include "PreTriage.h"
 #include "utils.h"
+
+using namespace sdds;
+using namespace std;
+
 void displayFile(const char* fname) {
    ifstream fin(fname);
    char ch;
@@ -24,7 +28,7 @@ void copyFile(const char* des, const char* src) {
    char ch = 0;
    while (s.get(ch) && d << ch);
 }
-using namespace sdds;
+
 int main() {
    sdds::debug = true;
    copyFile("bigdata.csv", "bigdata.csv.bak");
