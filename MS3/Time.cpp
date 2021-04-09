@@ -1,7 +1,7 @@
 //Name:         Mahshad Najafi Ragheb
-//Date :        2021-04-06
+//Date :        2021-04-07
 //* Citation and Sources:
-//Final Project Milestone 1
+//Final Project Milestone 3
 //Module: Time
 //Filename: Time.cpp
 //Version 1.0
@@ -28,7 +28,7 @@ namespace sdds {
         m_min = min;
     }
     std::ostream& Time::write(std::ostream& ostr) const {
-        unsigned hour = 0 ;
+        unsigned hour = 0;
         int min = 0;
         hour = m_min / 60;
         min = m_min % 60;
@@ -37,7 +37,7 @@ namespace sdds {
         ostr << hour << ":";
         ostr.fill('0');
         ostr.width(2);
-        ostr<< min;
+        ostr << min;
         return ostr;
     }
     std::istream& Time::read(std::istream& istr) {
@@ -60,7 +60,8 @@ namespace sdds {
             m_min = (hour * 60) + min;
             if (i < input.length())
                 istr.setstate(ios::failbit);
-        } else
+        }
+        else
             istr.setstate(ios::failbit);
 
 
@@ -72,7 +73,7 @@ namespace sdds {
         d_min = (signed)D.m_min;
         _min -= d_min;
         while (_min < 0) {
-            _min = _min + 24*60;
+            _min = _min + 24 * 60;
         }
         m_min = _min;
         return *this;

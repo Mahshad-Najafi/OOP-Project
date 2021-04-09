@@ -5,8 +5,11 @@
 // Description:
 // This file tests the Patient Module of your project
 /////////////////////////////////////////////
-#include <iostream>
+#include<string>
 #include <fstream>
+#include <iostream>
+
+
 using namespace std;
 #include "utils.h"
 #include "Patient.h"
@@ -71,9 +74,11 @@ int main() {
 
    cout << "Testing File IO: " << endl;
    int i = 0;
+
    W.fileIO(true);
    while (csvfile) {
       csvfile >> W;
+
       if (csvfile) {
          W.fileIO(false);
          cout << ++i << " -----------------------------------------------" << endl

@@ -7,8 +7,6 @@
 /////////////////////////////////////////////
 #include <iostream>
 #include "utils.h"
-#include "utils.h"
-#include "Time.h"
 #include "Time.h"
 using namespace std;
 using namespace sdds;
@@ -45,7 +43,8 @@ void getIntTester() {
    // fixed compiler version dependency :
    int val = getInt(10, 20, "> ", "Invalid value, retry ");
    cout << "last value entered: " << val << endl;
-}
+} 
+
 void timeTester() {
    Time D(1385u), C(65u), E;
    cout << "E: " << E << endl;
@@ -130,10 +129,8 @@ void timeTester() {
    } while (!done);
    cout << "you entered: " << E << endl << endl;
    cout << "Enter 100:100 at the prompt: " << endl;
-   sdds::debug = true;
    E.setToNow();
    cout << E << endl;
-   sdds::debug = false;
    cout << "The actual system time is: " << Time().setToNow() << endl;
 
 }

@@ -1,7 +1,9 @@
 //Name:         Mahshad Najafi Ragheb
-//Date :        2021-04-06
+//Student ID :  136115201
+//Email :       mnajafi - ragheb@myseneca.ca
+//Date :        2021-04-07
 //* Citation and Sources:
-//Final Project Milestone 1
+//Final Project Milestone 3
 //Module: utils
 //Filename: utils.h
 //Version 1.0
