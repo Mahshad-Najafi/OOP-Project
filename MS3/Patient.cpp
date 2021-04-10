@@ -8,7 +8,8 @@
 //Author	Mahshad Najafi Ragheb
 //Revision History
 //-----------------------------------------------------------
-//No Revision
+//Date             Reason
+//2021-04-10       Modified setArrivalTime Function
 //-----------------------------------------------------------
 //I have done all the coding by myself and only copied the code
 //that my professor provided to complete my workshops and assignments.
@@ -34,7 +35,7 @@ namespace sdds {
 		return (type() == P.type()) ? true : false;
 	}
 	void Patient::setArrivalTime(){
-		m_ticket.setTime(Time((unsigned int)getTime()));
+		m_ticket.resetTime();
 	}
 	Patient::operator Time() const {
 		return Time(m_ticket);
