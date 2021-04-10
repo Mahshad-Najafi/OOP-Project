@@ -8,7 +8,8 @@
 //Author	Mahshad Najafi Ragheb
 //Revision History
 //-----------------------------------------------------------
-//No Revision
+//Date             Reason
+//2021-04-10       Removed setTime Function(Redundant)
 //-----------------------------------------------------------
 //I have done all the coding by myself and only copied the code
 //that my professor provided to complete my workshops and assignments.
@@ -24,9 +25,6 @@ namespace sdds {
    }
    int Ticket::number() const {
       return m_number;
-   }
-   void Ticket::setTime(Time time) {
-       m_time = time;
    }
    void Ticket::resetTime() {
       m_time.setToNow();
