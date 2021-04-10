@@ -8,7 +8,8 @@
 //Author	Mahshad Najafi Ragheb
 //Revision History
 //-----------------------------------------------------------
-//No Revision
+//Date             Reason
+//2021-04-10       Removed setTime Function(Redundant)
 //-----------------------------------------------------------
 //I have done all the coding by myself and only copied the code
 //that my professor provided to complete my workshops and assignments.
@@ -24,7 +25,6 @@ namespace sdds {
    public:
       Ticket(int number = 0);
       operator Time()const;
-      void setTime(Time time);
       int number()const;
       void resetTime();
       std::ostream& csvWrite(std::ostream& ostr)const;
